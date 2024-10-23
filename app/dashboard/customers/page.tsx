@@ -1,7 +1,4 @@
-import Search from '@/app/ui/search';
-import { lusitana } from '@/app/ui/fonts';
-import { Suspense } from 'react';
-import { fetchCustomers, fetchFilteredCustomers } from '@/app/lib/data';
+import { fetchFilteredCustomers } from '@/app/lib/data';
 import { Metadata } from 'next';
 import Table from '@/app/ui/customers/table';
 
